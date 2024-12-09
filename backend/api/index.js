@@ -1,6 +1,6 @@
 const express = require("express");
-const { createToDo, updateToDo, deleteToDo } = require("./type");
-const {ToDo} = require("./db");
+const { createToDo, updateToDo, deleteToDo } = require("../type");
+const {ToDo} = require("../db");
 const app = express();
 const cors = require("cors");
 app.use(express.json());
