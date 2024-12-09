@@ -66,6 +66,6 @@ app.delete("/delete", async (req, res)=> {
 })
 
 const PORT = 3000;
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log(`App is listening at the port ${PORT}`);
 })
